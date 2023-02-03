@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
-import fire from './config/fire'
+import fire from '../config/fire'
 import Login from '../components/Login'
-import { SetStateAction, useEffect, useState } from 'react';
+import {  useEffect, useState } from 'react';
 
 const AblyChatComponent = dynamic(() => import('../components/AblyChatComponent'), { ssr: false });
 

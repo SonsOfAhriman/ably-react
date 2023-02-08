@@ -54,7 +54,8 @@ export const CreateRoom = () => {
       <button style={{ margin: "10px" }} onClick={goToRoom}>
         Create Room
       </button>
-      <h1>My Chatrooms</h1>
+      <h1>Hello, {user.email}!</h1>
+      <h2>My Chatrooms</h2>
       <ul>
         {chatrooms
           ?.filter((chat) => Object.keys(chat[1].members).includes(user.uid))

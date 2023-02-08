@@ -37,7 +37,7 @@ const ChatBox = ({ user, id }: any) => {
 
       <main>
         <h1 className="title">Namu-AI Chat Demo</h1>
-        <h2 className="title">Chatroom ID: {chatId}</h2>
+        <h2 className="title">Chatroom ID: {router.query.id}</h2>
         <AblyChatComponent />
       </main>
       <button onClick={logout}>Logout</button>

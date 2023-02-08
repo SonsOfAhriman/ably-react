@@ -22,6 +22,7 @@ const ChatBox = ({ user, id }: any) => {
   const router = useRouter();
 
   const [chatId, setChatId] = useState(router.query.id);
+  useEffect(() => {}, [chatId]);
 
   return (
     <div className="container">

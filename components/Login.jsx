@@ -1,5 +1,5 @@
 import React from "react";
-import fire from "../config/fire";
+import { fire } from "../config/fire";
 
 export const Login = () => {
   function signUp() {
